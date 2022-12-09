@@ -202,6 +202,7 @@ body {
 
 .minha-foto {
   width: 4rem;
+  border-radius: 3rem;
 }
 
 hr {
@@ -219,6 +220,8 @@ hr {
 }
 
 .paragrafo-sobre-mim {
+  font-weight: bold;
+  margin: 1rem;
   color: #445964;
 }
 
