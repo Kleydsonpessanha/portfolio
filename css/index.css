@@ -16,7 +16,9 @@
 }
 
 
+
  body {
+  
    background: #E5E5E5;
  }
  
@@ -136,7 +138,7 @@ body {
   }
 }
 
-.section-inicio {
+.primeiro-bloco {
   text-align: center;
 }
 
@@ -155,52 +157,6 @@ body {
     
  }
 
-@media (min-width: 992px) {
-.section-inicio {
-    color: #445964;
-    display: flex;
-    align-items:  center;
-    margin-top: 5rem;
-}
-  
-  .imagem-home-inicio {
-    position: fixed;
-    width: 19rem;
-    height: 19rem;
-    right: 0.7rem;
-    /* z-index: 1; */
-    right: 2.5rem;
-  }
-  
-  .paragrafo-inicio {
-       margin-left: 100px;
-       
-  }
-  
-  .section-textos-inicio {
-     display: block;
-     font-size: 1rem;
-     
-  }
-  
-  .h1-inicio {
-     margin-left: 100px;
-     width: 80%;
-     font-size: 2rem;
-  }
-  
-  
-.paragrafo2-inicio {
-   color: #445964;
-   font-weight: bold;
-   margin-left: 4.5rem;
-}
-
-.button-link-inicio {
-    margin-left: 4rem;
-    
-}
-}
 
 .h1-inicio {
    text-transform: uppercase;
@@ -237,4 +193,82 @@ body {
 .imagem-redes {
   width: 2rem;
   text-decoration: none;
+}
+
+.segundo-bloco {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.minha-foto {
+  width: 4rem;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #445964;
+}
+
+.titulo-meu-nome {
+  color: #445964;
+}
+
+.span-h1 {
+  color: #000000;
+}
+
+.paragrafo-sobre-mim {
+  color: #445964;
+}
+
+@media (min-width: 992px) {
+.primeiro-bloco {
+    color: #445964;
+    display: flex;
+    align-items:  center;
+    margin-top: 5rem;
+}
+  
+  .imagem-home-inicio {
+    position: fixed;
+    width: 19rem;
+    height: 19rem;
+    right: 0.7rem;
+    /* z-index: 1; */
+    right: 4rem;
+  }
+  
+  .paragrafo-inicio {
+       margin-left: 100px;
+       
+  }
+  
+  .section-textos-inicio {
+     display: block;
+     font-size: 1rem;
+     
+  }
+  
+  .h1-inicio {
+     margin-left: 100px;
+     width: 80%;
+     font-size: 2rem;
+  }
+  
+  
+.paragrafo2-inicio {
+   color: #445964;
+   font-weight: bold;
+   margin-left: 4.5rem;
+}
+
+.button-link-inicio {
+    margin-left: 4rem;
+    
+}
+
+.redes {
+  margin-left: ;
+}
 }
