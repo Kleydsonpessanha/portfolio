@@ -155,7 +155,7 @@ body {
     
  }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) {
 .section-inicio {
     color: #445964;
     display: flex;
@@ -225,13 +225,16 @@ body {
 }
 
 .redes {
-  padding: 2rem;  
+  padding: 2rem;
+  text-decoration: none;
 }
 
 .redes-link-inicio {
   margin: 1rem;
+  text-decoration: none;
 }
 
 .imagem-redes {
   width: 2rem;
+  text-decoration: none;
 }
