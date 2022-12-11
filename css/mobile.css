@@ -197,11 +197,12 @@ body {
 
 .segundo-bloco {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
-.minha-foto {
-  width: 4rem;
+
+.my-photo {
+  width: 5rem;
   border-radius: 3rem;
 }
 
@@ -211,19 +212,22 @@ hr {
   background-color: #445964;
 }
 
-.titulo-meu-nome {
+.title-my-name {
   color: #445964;
+  margin-top: 1rem;
 }
 
 .span-h1 {
   color: #000000;
 }
 
-.paragrafo-sobre-mim {
+.paragraph-about-me {
   font-weight: bold;
   margin: 1rem;
   color: #445964;
 }
+
+
 
 @media (min-width: 992px) {
 .primeiro-bloco {
@@ -274,4 +278,19 @@ hr {
 .redes {
   margin-left: 4rem;
 }
+
+.segundo-bloco {
+  margin: auto;
+   margin-top: 2rem;
+  width: 50%;
+}
+
+.my-photo {
+ width: 10rem;  
+}
+
+.paragraph-about-me {
+  text-align: justify;
+
+} 
 }
