@@ -231,3 +231,16 @@ hr {
 .span-title-hardSkills {
   color: #445964;
 }
+
+.imagens-hardSkills {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+
+.imagens-hardSkills > img {
+  width: 5rem;
+}

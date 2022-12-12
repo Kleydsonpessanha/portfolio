@@ -64,4 +64,9 @@
   text-align: justify;
 
 } 
+
+
+.imagens-hardSkills > img {
+  width: 10rem;
+}
 }
