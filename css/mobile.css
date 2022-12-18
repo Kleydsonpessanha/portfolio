@@ -47,7 +47,7 @@
    justify-content: space-around;
    align-items: center;
    font-family: Arial, Sans-Serif, Helvetica;
-   height: 15vh;
+   height: 12vh;
    overflow-x: hidden;
  }
  
@@ -76,7 +76,7 @@
  
  .link-menu {
    color: white;
-     padding: 0.7rem;
+   padding: 0.7rem;
   border-radius: 0.7rem;
    background-color: #4f7487;
    text-decoration: none;
@@ -98,7 +98,7 @@ body {
   
   .nav-list {
     position: fixed;
-    top: 15vh;
+    top: 11vh;
     right: 0;
     width: 0vw;
     height: 60vh;
@@ -107,7 +107,7 @@ body {
     justify-content: space-around;
     /* transform: translateX(0%); */
     transition:  0.3s ease-in;
-       background-color: #445964;
+    background-color: #445964;
     border-radius: 0.7rem;
   } 
   

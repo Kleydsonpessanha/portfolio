@@ -1,53 +1,62 @@
 
 @media (min-width: 992px) {
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
 .primeiro-bloco {
     color: #445964;
     display: flex;
     align-items:  center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
   
   .imagem-home-inicio {
-    position: fixed;
+    position: absolute;
     width: 19rem;
     height: 19rem;
     right: 0.7rem;
     /* z-index: 1; */
-    right: 4rem;
+    right: 5rem;
   }
   
   .paragrafo-inicio {
-       margin-left: 100px;
+       
        
   }
   
+  .section-inicio {
+    text-align: center;
+    margin-left: 3rem;
+  }
+  
   .section-textos-inicio {
+     text-align: center;
      display: block;
      font-size: 1rem;
-     
   }
   
   .h1-inicio {
-     margin-left: 100px;
-     width: 80%;
      font-size: 2rem;
+     margin-left: 1rem;
   }
   
   
 .paragrafo2-inicio {
    color: #445964;
    font-weight: bold;
-   margin-left: 4.5rem;
+  
 }
 
 .button-link-inicio {
-    margin-left: 4rem;
+    
     
 }
 
 .redes {
-  margin-left: 4rem;
+  
 }
 
 .segundo-bloco {
@@ -70,3 +79,4 @@
   width: 10rem;
 }
 }
+
