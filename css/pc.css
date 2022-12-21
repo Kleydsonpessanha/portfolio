@@ -5,9 +5,9 @@
     margin: 0px;
     padding: 0px;
   }
-  
-.primeiro-bloco {
-    color: #445964;
+    
+  .primeiro-bloco {
+      color: #445964;
     display: flex;
     align-items:  center;
     margin-bottom: 4rem;
@@ -21,12 +21,7 @@
     /* z-index: 1; */
     right: 5rem;
   }
-  
-  .paragrafo-inicio {
-       
-       
-  }
-  
+
   .section-inicio {
     text-align: center;
     margin-left: 3rem;
@@ -50,18 +45,9 @@
   
 }
 
-.button-link-inicio {
-    
-    
-}
-
-.redes {
-  
-}
-
 .segundo-bloco {
   margin: auto;
-   margin-top: 2rem;
+   margin-top: 5rem;
   width: 50%;
 }
 
@@ -78,5 +64,16 @@
 .imagens-hardSkills > img {
   width: 10rem;
 }
+
+.title-of-projects {
+    font-size: 2.5rem;
 }
 
+
+.image-projects {
+  width: 10rem;
+}
+
+}
+
+  
