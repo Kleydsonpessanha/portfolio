@@ -67,6 +67,7 @@
  }
  
  .mobile-menu div {
+ 
     width: 2rem;
     height: 2px;
     background: #445964;
@@ -273,21 +274,27 @@ hr {
 
 .third-block {
    margin-top: 10rem;
+   margin-bottom: 2rem;
 }
 
 .projects-global {
   margin:  auto;
+}
 
+.titles-projects {
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title-of-projects {
   margin: 2rem;
+ 
   text-align: left;
   text-transform: uppercase;
   font-size: 1.5rem;
   color: #00000;
   font-weight: 900;
-
 }
 
 .span-title-of-projects {
@@ -295,9 +302,12 @@ hr {
   color: #445964;
 }
 
+.subtitle-of-projects {
+  color:  #445964;
+}
+
 
 .projects {
-
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -307,5 +317,11 @@ hr {
 }
 
 .image-projects {
-  width: 6rem;
+  width: 9.5rem;
+}
+
+
+.fourth-block {
+  margin: auto;
+  margin-top: 4rem;
 }
