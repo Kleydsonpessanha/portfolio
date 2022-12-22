@@ -17,12 +17,13 @@
     position: absolute;
     width: 19rem;
     height: 19rem;
-    right: 0.7rem;
+    right: 1rem;
     /* z-index: 1; */
     right: 5rem;
   }
 
   .section-inicio {
+    margin: auto;
     text-align: center;
     margin-left: 3rem;
   }
@@ -46,8 +47,13 @@
 }
 
 .segundo-bloco {
-  margin: auto;
+
    margin-top: 5rem;
+  
+}
+
+.section-global-segundo-bloco {
+    margin: auto;
   width: 50%;
 }
 
@@ -69,11 +75,21 @@
     font-size: 2.5rem;
 }
 
+.subtitle-of-projects {
+  font-size: 2rem;
+}
 
 .image-projects {
   width: 12rem;
 }
 
+.title-techs {
+  font-size: 2.5rem;
+}
+
+.icons-image-technology {
+  width: 4rem;
+}
 }
 
   
