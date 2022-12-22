@@ -1,6 +1,8 @@
 
 @media (min-width: 992px) {
   
+  ::-webkit-scrollbar-track {     background-color: #6c6c6c;  }  ::-webkit-scrollbar {     width: 12px;  }    ::-webkit-scrollbar-thumb {      background: #929192;        border-radius: 15px;    }
+  
   * {
     margin: 0px;
     padding: 0px;
