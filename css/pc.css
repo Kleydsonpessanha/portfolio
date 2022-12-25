@@ -8,7 +8,7 @@
     padding: 0px;
   }
     
-  .primeiro-bloco {
+  .first-block {
       color: #445964;
     display: flex;
     align-items:  center;
@@ -48,7 +48,7 @@
   
 }
 
-.segundo-bloco {
+.second-block {
 
    margin-top: 5rem;
   

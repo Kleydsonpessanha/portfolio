@@ -140,7 +140,7 @@ body {
   }
 }
 
-.primeiro-bloco {
+.first-block {
   text-align: center;
   margin-top: 4rem;
 }
@@ -198,7 +198,7 @@ body {
   text-decoration: none;
 }
 
-.segundo-bloco {
+.second-block {
   padding: 3rem;
   text-align: center;
   margin-top: 5rem;
@@ -322,9 +322,13 @@ hr {
 }
 
 .image-projects {
+  display: block;
   width: 9.5rem;
 }
 
+.names-of-projects {
+  text-align: center;
+}
 
 .fourth-block {
   padding: 2rem;
@@ -382,5 +386,48 @@ footer {
 }
 
 .section-footer {
+  margin-bottom: 2rem;
   text-align: center;
+}
+
+.block-global-footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center
+}
+
+.nav-list-footer {
+  list-style: none;
+}
+
+.title-menu-footer {
+  color: #445964;
+  text-transform: uppercase;
+}
+
+.list-footer {
+  margin-top: 2rem;
+}
+
+.link-footer {
+   padding: 10px;
+   color: white;
+   background-color: #828989;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-decoration: none;  
+  font-weight: 900;
+  border-radius: 0.5rem;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+}
+.title-contact-footer {
+  color: #445964;
+  text-transform: uppercase;
+
 }
