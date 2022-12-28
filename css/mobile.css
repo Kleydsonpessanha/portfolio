@@ -322,12 +322,22 @@ hr {
 }
 
 .image-projects {
+  border-radius: 1rem;
   display: block;
   width: 9.5rem;
 }
 
-.names-of-projects {
+.projects-global-divs {
   text-align: center;
+}
+
+.names-of-projects {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #445964;
+  color: white;
 }
 
 .fourth-block {
