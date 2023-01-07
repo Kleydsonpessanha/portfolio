@@ -19,6 +19,7 @@
 
  body {
    background: #E5E5E5;
+   line-height: 2rem;
  }
  
  
@@ -200,8 +201,9 @@ body {
 
 .second-block {
   padding: 3rem;
+  padding-bottom: 5rem;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 7rem;
   background: lightgray;
 }
 
@@ -257,6 +259,7 @@ hr {
   font-weight: bold;
   margin: 1rem;
   color: #445964;
+  line-height: 1rem;
 }
 
 
@@ -277,7 +280,7 @@ hr {
 }
 
 .third-block {
-   margin-top: 5rem;
+   margin-top: 7rem;
    margin-bottom: 2rem;
 }
 
@@ -341,9 +344,9 @@ hr {
 }
 
 .fourth-block {
-  padding: 2rem;
+  padding: 4rem;
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 7rem;
   background: lightgray;
 }
 
@@ -391,7 +394,7 @@ font-size: 1.5rem;
 
 footer {
   margin:  auto;
-  padding: 2rem;
+  padding: 3rem;
   background:  #E5E5E5;
 }
 

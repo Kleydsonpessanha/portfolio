@@ -12,20 +12,28 @@
       color: #445964;
     display: flex;
     align-items:  center;
+    justify-content: center;
     margin-bottom: 4rem;
 }
   
   .imagem-home-inicio {
-    position: absolute;
     width: 19rem;
     height: 19rem;
-    right: 1rem;
+    
     /* z-index: 1; */
-    right: 5rem;
+    
   }
 
+.image-and-text-of-first-block {
+  display:  flex; 
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
   .section-inicio {
-    margin: auto;
+   
     text-align: center;
     margin-left: 3rem;
   }
